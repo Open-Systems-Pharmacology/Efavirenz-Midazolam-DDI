@@ -2173,6 +2173,94 @@
                   "Unit": "ml/kg"
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 120.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 4.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 3",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 360.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 4.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 4",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 240.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 4.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 5",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 504.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 4.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -2195,7 +2283,91 @@
               "Parameters": [
                 {
                   "Name": "Start time",
+                  "Value": 120.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 2.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Infusion time",
+                  "Value": 30.0,
+                  "Unit": "min"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Intravenous",
+              "Parameters": [
+                {
+                  "Name": "Start time",
                   "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 2.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Infusion time",
+                  "Value": 30.0,
+                  "Unit": "min"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 3",
+              "ApplicationType": "Intravenous",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 360.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 2.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Infusion time",
+                  "Value": 30.0,
+                  "Unit": "min"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 4",
+              "ApplicationType": "Intravenous",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 240.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 2.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Infusion time",
+                  "Value": 30.0,
+                  "Unit": "min"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 5",
+              "ApplicationType": "Intravenous",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 504.0,
                   "Unit": "h"
                 },
                 {
@@ -2824,7 +2996,7 @@
             },
             {
               "Name": "End time",
-              "Value": 30.0,
+              "Value": 542.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2845,12 +3017,52 @@
           "Unit": "ml/kg"
         },
         {
+          "Path": "Applications|Mikus2017_Midazolam-DDI|Application_10|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        },
+        {
           "Path": "Applications|Mikus2017_Midazolam-DDI|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 30.0,
           "Unit": "min"
         },
         {
+          "Path": "Applications|Mikus2017_Midazolam-DDI|Application_4|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Applications|Mikus2017_Midazolam-DDI|Application_6|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Applications|Mikus2017_Midazolam-DDI|Application_8|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        },
+        {
           "Path": "Applications|Mikus2017_Midazolam-DDI|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mikus2017_Midazolam-DDI|Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mikus2017_Midazolam-DDI|Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mikus2017_Midazolam-DDI|Solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Mikus2017_Midazolam-DDI|Solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -3146,8 +3358,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 30.0,
+              "Min": 12.0,
+              "Max": 26.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -3219,7 +3431,94 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz-Midazolam-DDI\nMikus 2017, Midazolam + Efavirenz 400mg SD\n2020-03-23 20:51"
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Efavirenz-Midazolam-DDI\nMikus 2017, Midazolam + Efavirenz 400mg SD\n2020-03-27 12:20"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mikus 2017, Midazolam + Efavirenz 400mg SD-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Mikus 2017, Midazolam + Efavirenz 400mg SD|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Mikus 2017, Midazolam + Efavirenz 400mg SD-Efavirenz-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Mikus 2017, Midazolam + Efavirenz 400mg SD|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mikus 2017 - Efavirenz + Midazolam IV day 1 - Midazolam - IV - 2 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mikus 2017 - Efavirenz + Midazolam PO day 1 - Midazolam - PO - 4 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mikus 2017 - Efavirenz + Midazolam PO day 1 - Midazolam - PO - 4 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mikus 2017 - Efavirenz + Midazolam PO day 1 - Midazolam - PO - 4 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Mikus 2017 - Midazolam + Efavirenz - Efavirenz - PO - 400 mg - Plasma - agg. (n=12)-Efavirenz-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mikus 2017 - Midazolam + Efavirenz - Efavirenz - PO - 400 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Mikus 2017 - Midazolam + Efavirenz - Efavirenz - PO - 400 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "OriginText": "Efavirenz-Midazolam-DDI\nMikus 2017, Midazolam + Efavirenz 400mg SD\n2020-03-27 12:20"
         }
       ],
       "Interactions": [
@@ -4854,20 +5153,20 @@
             "MolWeight": 325.77
           },
           "Values": [
-            5.11955,
-            18.01688,
-            17.52461,
-            13.7834,
-            10.73136,
-            7.18706,
-            4.922644,
-            3.248945,
-            2.461322,
-            1.575246,
-            1.279887
+            0.00511955,
+            0.01801688,
+            0.0175246112,
+            0.013783399,
+            0.0107313609,
+            0.00718705961,
+            0.00492264424,
+            0.00324894488,
+            0.00246132212,
+            0.001575246,
+            0.00127988693
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5020,21 +5319,21 @@
             "MolWeight": 325.77
           },
           "Values": [
-            32.68636,
-            42.43319,
-            23.72714,
-            20.37975,
-            17.22925,
-            14.37412,
-            12.60197,
-            10.43601,
-            6.793249,
-            4.331927,
-            2.658228,
-            1.870605
+            0.03268636,
+            0.04243319,
+            0.0237271413,
+            0.02037975,
+            0.01722925,
+            0.0143741192,
+            0.01260197,
+            0.0104360105,
+            0.006793249,
+            0.004331927,
+            0.002658228,
+            0.001870605
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5183,16 +5482,16 @@
             "MolWeight": 315.68
           },
           "Values": [
-            1157.872,
-            832.577,
-            792.8741,
-            371.7849,
-            141.6425,
-            70.60027,
-            40.74549
+            1.157872,
+            0.83257705,
+            0.792874038,
+            0.371784925,
+            0.1416425,
+            0.07060027,
+            0.04074549
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
