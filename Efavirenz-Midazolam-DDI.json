@@ -3923,7 +3923,7 @@
             },
             {
               "Name": "End time",
-              "Value": 340.0,
+              "Value": 336.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -3932,6 +3932,34 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 336.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 340.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
               "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -4353,7 +4381,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Efavirenz-Midazolam-DDI\nKatzenmaier 2010, Midazolam +  Efavirenz 400mg MD\n2020-03-23 20:47"
+          "OriginText": "Efavirenz-Midazolam-DDI\nKatzenmaier 2010, Midazolam +  Efavirenz 400mg MD\n2020-04-02 12:27"
         }
       ],
       "Interactions": [
